@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".View.LoginScreen">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/blog_app" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dancing_script"
+        android:paddingTop="15dp"
+        android:text="@string/welcome_to_blogwave"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="@string/please_log_in_to_access_your_account"
+        android:textSize="18sp" />
+    
+    <EditText
+        android:id="@+id/splashLoginFilled"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_height="60dp"
+        android:drawablePadding="15dp"
+        android:background="@drawable/primary_textfilled"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:hint="@string/email"
+        />
+
+    <EditText
+        android:id="@+id/splashPassFilled"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/primary_textfilled"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:hint="@string/passwaord"
+        />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:text="Login"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>

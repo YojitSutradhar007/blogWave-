@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">BlogWave</string>
     <string name="blogwave">BlogWave</string>
+    <string name="please_log_in_to_access_your_account">Please log in to access your account</string>
+    <string name="welcome_to_blogwave">Welcome to BlogWave</string>
+    <string name="email">Email</string>
+    <string name="passwaord">Passwaord</string>
 </resources>
